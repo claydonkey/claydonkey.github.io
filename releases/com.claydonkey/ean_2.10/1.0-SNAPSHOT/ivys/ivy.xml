@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0-SNAPSHOT" status="integration" publication="20140417113131">
+	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0-SNAPSHOT" status="integration" publication="20140417151937">
 		<description>
 		ean
 		</description>
@@ -33,8 +33,5 @@
 		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.2.2" conf="test->default(compile)"/>
 		
 		<dependency org="net.sf.barcode4j" name="barcode4j" rev="2.1" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-jdbc_2.10" rev="2.2.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="anorm_2.10" rev="2.2.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-cache_2.10" rev="2.2.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
