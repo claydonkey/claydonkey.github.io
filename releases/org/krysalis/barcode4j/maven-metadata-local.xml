@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.krysalis</groupId>
+  <artifactId>barcode4j</artifactId>
+  <versioning>
+    <versions>
+      <version>2.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140428150149</lastUpdated>
+  </versioning>
+</metadata>
