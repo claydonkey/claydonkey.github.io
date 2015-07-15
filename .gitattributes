@@ -8,6 +8,10 @@
 
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
+*.jar binary
+*.xml binary
+*.md5 binary
+*.sha1 binary
 
 # Denote all files that are truly binary and should not be modified.
 *.png binary
