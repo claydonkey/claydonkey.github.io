@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0.1" status="release" publication="20150715170355">
+	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0.1" status="release" publication="20150715193824">
 		<description>
 		ean
 		</description>
