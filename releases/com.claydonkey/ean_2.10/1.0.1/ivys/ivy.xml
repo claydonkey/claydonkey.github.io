@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0.1" status="release" publication="20150715194956">
+	<info organisation="com.claydonkey" module="ean_2.10" revision="1.0.1" status="release" publication="20150716092124">
 		<description>
 		ean
 		</description>
@@ -28,10 +28,11 @@
 	</publications>
 	<dependencies>
 		
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="compile->default(compile)"/>
-		<dependency org="net.sf.barcode4j" name="barcode4j" rev="2.1" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play_2.10" rev="2.2.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.2.2" conf="test->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.10" rev="1.0.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play_2.10" rev="2.3.9" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.3.9" conf="test->default(compile)"/>
 		
+		<dependency org="net.sf.barcode4j" name="barcode4j" rev="2.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
